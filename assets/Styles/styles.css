@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background: rgb(208, 209, 211);
+}
+
+header {
+    background-image: url(../img/design1_image1.jpg);
+    background-size: 100%;
+    background-position-y: 25%;
+}
+
+h1 {
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: rgb(193, 201, 32);
+    padding: 2px;
+    border-radius: 5%;
+    border-right-style: double;
+    border-bottom-style: double;
+    box-shadow: 2px 5px 30px black;
+}
+
+header img {
+    width: 100px;
+    margin-left: 80%;
+    border-style: solid;
+    background: black;
+    position: relative;
+    top: 75px;
+    border-style: solid;
+    border-color: rgb(193, 201, 32);
+}
+
+h2 {
+    background: black;
+    color: rgb(193, 201, 32);
+    text-align: center;
+}
+
+.div-section-game-information {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.subtitle-rules-1 {
+    text-align: center;
+}
+
+.subtitle-rules {
+    margin-bottom: 20px;
+}
+
+
+.div-section-rules p {
+    margin-bottom: 30px;
+}
+
+section ol li {
+    margin-bottom: 30px;
+}
+
+.nav-info-flex {
+    margin-left: 5%;
+    display: flex;
+    margin-top: 4em;
+    width: 90%;
+    justify-content: space-around;
+    background-color: rgb(193, 201, 32);
+    box-shadow: 2px 5px 15px black;
+}
+
+.nav-info-flex-maps {
+    margin-top: 4em;
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgb(193, 201, 32);
+    box-shadow: 2px 5px 15px black;
+}
+
+.maps {
+    display: inline-block;
+    margin: 1em;
+    margin-left: 10%;
+}
+
+.nav-info-flex-registration {
+    margin-left: 5%;
+    display: flex;
+    margin-top: 2em;
+    width: 90%;
+    justify-content: space-around;
+    background-color: rgb(193, 201, 32);
+    box-shadow: 2px 5px 15px black;
+    padding-top: 2em;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    border-style: double;
+    border-radius: 40%;
+    text-align: center;
+    background-color: rgb(193, 201, 32);
+    box-shadow: 2px 5px 15px black;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+    border-style: double;
+    border-radius: 40%;
+    text-align: center;
+    color: rgb(193, 201, 32);
+    background-color: black;
+}
+
+.nav-about {
+    width: 15%;
+    margin-right: 2em;
+}
+
+.nav-rules {
+    flex: 10%;
+    justify-content: start;
+}
+
+.nav-rules a {
+    margin-bottom: 30px;
+    text-decoration: none;
+    border-radius: 40%;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(193, 201, 32);
+    box-shadow: 2px 5px 15px black;
+}
+
+.nav-info-flex picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-info-flex picture img {
+    width: 400px;
+    box-shadow: 2px 0px 15px black;
+}
+
+.foto-about {
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 35%;
+}
+
+.div-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-info-flex-game-information {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+
+.div-section-rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 70%;
+}
+
+.div-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact-mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-about section p {
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.table-information {
+    width: 80%;
+    text-align: center;
+    background-color: rgb(193, 201, 32);
+    box-shadow: 2px 5px 15px black;
+}
+
+.aditional-information {
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
+    margin-top: 3em;
+    background-color: rgb(193, 201, 32);
+    box-shadow: 2px 5px 15px black;
+}
+
+.main-about-mdhl {
+    background-image: url(../img/hockey-2.jpg);
+    background-size: 100%;
+    background-position-y: 10%;
+    }
+
+.h3-registration-form{
+    text-align: center;
+    margin-top: 2em;
+}
+
+fieldset {
+    margin-bottom: 2em;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.nav-registration {
+    align-self: self-start;
+}
+.nav-registration a {
+    margin-bottom: 2em;
+}
+
+form {
+    max-width: 70%;
+}
+
+.div-label-medio-renglon {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.street-address {
+    width: 100%;
+}
